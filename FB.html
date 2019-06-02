@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title id="Facebook">Facebook</title>
+        <link href="FB.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id="menubar">
+            <form class="wrapper" method="POST">
+                        <input class="align" type="search" name="search" placeholder="Search">
+                        <button class="align2" type="submit"><i class="fa fa-search"></i></button>
+                        <input class="buttons" type="submit" name="profile" placeholder="profile" value="Profile">
+                        <input class="buttons" type="submit" name="Home" placeholder="Home" value="Home">
+                        <input class="buttons" type="submit" name="Find Friends" placeholder="Find Friends" value="Find Friends">
+                        <input class="buttons" type="submit" name="Create" placeholder="Create" value="Create">
+                        <!---->
+                        <button class="buttons" type="submit"><i class="fa fa-user-plus"></i></button>
+                        <button class="buttons" type="submit"><i class="fa fa-envelope"></i></button>
+                        <button class="buttons" type="submit"><i class="fa fa-dot-circle"></i></button>
+                        <button class="buttons" type="submit"><i class="fa fa-question"></i></button>
+                        <!---->
+                        <select class="buttonSel">
+                            <option class="fa fa-arrow"></option>
+                            <option> Manage Groups</option>
+                            <option> Advertising on Facebook</option>
+                            <option>Activity Log</option>
+                            <option>News Feeds Preferences</option>
+                            <option>Settings</option>
+                            <option>Log Out</option>
+                        </select>
+            </form>
+        </div>
+        <div id="side">
+            <fieldset>
+                <legend>Profile</legend>
+                <button class="side_s" type="submit"><i class="fa fa-newspaper">News Feeds</i></button><br>
+                <button class="side_s" type="submit"><i class="fa fa-envelope">messanger</i></button><br>
+            </fieldset>
+
+            <fieldset>
+                    <legend>Shortcuts</legend>
+            </fieldset>
+
+            <fieldset>
+                    <legend>Explore</legend>
+            </fieldset>
+        </div>
+        <div id="post">
+            <h2 style="background-color:rgb(225, 225, 225);margin-bottom: 0px; margin-top: 0px;height: 40px; padding: 5pt;">Create post</h2>
+            <hr style="margin: 0px;">
+            <div>
+                <input class="mypost" type="text" name="name" placeholder="Tell us whats in your head!">
+            </div>
+            <hr style="margin: 0px;">
+            <form id="post_id" method="POST">
+                <input class ="post_b" type="image" name="image" value="images">
+                <input class ="post_b" type="button" name="Tag Friends" value="Tag Friends">
+                <input class ="post_b" type="button" name="Activity/feelings" value="Activity/feelings">
+            </form>
+        </div>
+        <div id="stories">
+            <h3 style="text-align:left;margin-left: 5pt;">Stories</h3>
+        </div>
+    </body>
+</html>
